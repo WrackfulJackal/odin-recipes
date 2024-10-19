@@ -12,6 +12,7 @@ body {
     max-width: 800px;
     padding: 8px  0;
     margin: -24px auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 img {
     display: block;
@@ -35,7 +36,9 @@ h1 {
 button.recipe-link {
     display: block;
     padding: 8px;
-    margin: 24px auto;
+    margin: 0 auto;
+    background-color: #cd7c09;
+    color: #fef9f3;
 }
 div.bottom-button-spacing {
     padding: 16px 0 16px;
@@ -53,5 +56,11 @@ h2 {
     margin: 16px 24px;
 }
 h3 {
-    margin: 32px 24px 24px;
+    margin: 24px 24px;
+}
+.recipe-info {
+    display: inline-block;
+    list-style-type: none;
+    padding: 4px;
+    margin: 0 8px -16px;
 }
